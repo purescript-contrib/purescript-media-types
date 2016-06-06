@@ -2,16 +2,16 @@ module Data.MediaType where
 
 import Prelude
 
+import Data.Generic (class Generic)
+
 newtype MediaType = MediaType String
 
-instance eqMediaType :: Eq MediaType where
-  eq (MediaType x) (MediaType y) = x == y
+unMediaType :: MediaType -> String
+unMediaType (MediaType s) = s
 
-instance ordMediaType :: Ord MediaType where
-  compare (MediaType x) (MediaType y) = compare x y
+derive instance eqMediaType :: Eq MediaType
+derive instance ordMediaType :: Ord MediaType
+derive instance genericMediaType :: Generic MediaType
 
 instance showMediaType :: Show MediaType where
   show (MediaType h) = "(MediaType " <> show h <> ")"
-
-mediaTypeToString :: MediaType -> String
-mediaTypeToString (MediaType s) = s
