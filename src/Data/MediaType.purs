@@ -7,7 +7,7 @@ import Data.Newtype (class Newtype)
 
 newtype MediaType = MediaType String
 
-derive instance newtypeMediaType :: Newtype MediaType
+derive instance newtypeMediaType :: Newtype MediaType _
 derive instance eqMediaType :: Eq MediaType
 derive instance ordMediaType :: Ord MediaType
 derive instance genericMediaType :: Generic MediaType
