@@ -17,6 +17,6 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-generics": "^4.0.0"
+    "purescript-newtype": "#compiler/0.12"
   }
 }
