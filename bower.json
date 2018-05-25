@@ -17,6 +17,7 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-newtype": "#compiler/0.12"
+    "purescript-prelude": "^4.0.0",
+    "purescript-newtype": "^3.0.0"
   }
 }
