@@ -40,3 +40,6 @@ textPlain = MediaType "text/plain"
 
 textXML :: MediaType
 textXML = MediaType "text/xml"
+
+textCss :: MediaType
+textCss = MediaType "text/css"
