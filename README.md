@@ -11,7 +11,7 @@ Internet media / content / MIME types.
 ## Installation
 
 ```
-bower install purescript-media-types
+spago install media-types
 ```
 
 ## Documentation
