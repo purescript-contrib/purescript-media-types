@@ -1,4 +1,4 @@
-# Contributing
+# Contributing to `purescript-media-types`
 
 Thanks for your interest in contributing to `purescript-media-types`! We welcome new contributions regardless of your level of experience or familiarity with PureScript.
 
