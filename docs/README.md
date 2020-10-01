@@ -1,3 +1,3 @@
-# `purescript-media-types` Documentation
+# Media Types Documentation
 
-This directory contains documentation for `purescript-media-types`. If you are interested in contributing new documentation, please read the [contributor guidelines](../CONTRIBUTING.md) and [What Nobody Tells You About Documentation](https://documentation.divio.com) for help getting started.
+This directory contains documentation for `media-types`. If you are interested in contributing new documentation, please read the [contributor guidelines](../CONTRIBUTING.md) and [What Nobody Tells You About Documentation](https://documentation.divio.com) for help getting started.
