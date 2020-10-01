@@ -1,10 +1,10 @@
 # Media Types
 
 [![CI](https://github.com/purescript-contrib/purescript-media-types/workflows/CI/badge.svg?branch=main)](https://github.com/purescript-contrib/purescript-media-types/actions?query=workflow%3ACI+branch%3Amain)
-[![Release](http://img.shields.io/github/release/purescript-contrib/purescript-media-types.svg)](https://github.com/purescript-contrib/purescript-media-types/releases)
-[![Pursuit](http://pursuit.purescript.org/packages/purescript-media-types/badge)](http://pursuit.purescript.org/packages/purescript-media-types/)
-[![Maintainer: garyb](https://img.shields.io/badge/maintainer-garyb-lightgrey.svg)](http://github.com/garyb)
-[![Maintainer: thomashoneyman](https://img.shields.io/badge/maintainer-thomashoneyman-lightgrey.svg)](http://github.com/thomashoneyman)
+[![Release](https://img.shields.io/github/release/purescript-contrib/purescript-media-types.svg)](https://github.com/purescript-contrib/purescript-media-types/releases)
+[![Pursuit](https://pursuit.purescript.org/packages/purescript-media-types/badge)](https://pursuit.purescript.org/packages/purescript-media-types)
+[![Maintainer: garyb](https://img.shields.io/badge/maintainer-garyb-teal.svg)](https://github.com/garyb)
+[![Maintainer: thomashoneyman](https://img.shields.io/badge/maintainer-thomashoneyman-teal.svg)](https://github.com/thomashoneyman)
 
 Internet media / content / MIME types.
 
@@ -12,15 +12,19 @@ Internet media / content / MIME types.
 
 Install `media-types` with [Spago](https://github.com/purescript/spago):
 
-```
+```sh
 spago install media-types
 ```
+
+## Quick start
+
+The quick start hasn't been written yet (contributions are welcome!). The quick start covers a common, minimal use case for the library, whereas longer examples and tutorials are kept in the [docs directory](./docs).
 
 ## Documentation
 
 `media-types` documentation is stored in a few places:
 
-1. Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-purescript-media-types).
+1. Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-media-types).
 2. Written documentation is kept in the [docs directory](./docs).
 3. Usage examples can be found in [the test suite](./test).
 

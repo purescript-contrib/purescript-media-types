@@ -11,3 +11,34 @@ New features:
 Bugfixes:
 
 Other improvements:
+
+## [v4.0.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v4.0.1) - 2018-06-23
+
+- Adds metadata including contributor guidelines
+- Pushes latest release to Pursuit
+
+## [v4.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v4.0.0) - 2018-05-25
+
+Updates for 0.12
+
+## [v3.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v3.0.0) - 2017-04-03
+
+- Updated for PureScript 0.11
+
+## [v2.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v2.0.0) - 2016-10-17
+
+- Updated dependencies
+- Added `Newtype` instance
+
+## [v1.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v1.0.0) - 2016-06-06
+
+Updates for 1.0 core libraries.
+
+## [v0.1.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v0.1.1) - 2016-02-06
+
+- Added `Ord` instance
+
+## [v0.1.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v0.1.0) - 2016-02-06
+
+- Initial release
+
