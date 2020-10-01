@@ -12,6 +12,8 @@ Bugfixes:
 
 Other improvements:
 
+- Added documentation for all public members ([@maxdeviant]() in [#11](https://github.com/purescript-contrib/purescript-media-types/pull/11))
+
 ## [v4.0.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v4.0.1) - 2018-06-23
 
 - Adds metadata including contributor guidelines
@@ -41,4 +43,3 @@ Updates for 1.0 core libraries.
 ## [v0.1.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v0.1.0) - 2016-02-06
 
 - Initial release
-
