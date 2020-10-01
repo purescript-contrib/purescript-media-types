@@ -12,7 +12,7 @@ Bugfixes:
 
 Other improvements:
 
-- Added documentation for all public members ([@maxdeviant]() in [#11](https://github.com/purescript-contrib/purescript-media-types/pull/11))
+- Added documentation for all public members ([@maxdeviant](https://github.com/maxdeviant) in [#11](https://github.com/purescript-contrib/purescript-media-types/pull/11))
 
 ## [v4.0.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v4.0.1) - 2018-06-23
 
