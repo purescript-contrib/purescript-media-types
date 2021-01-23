@@ -6,22 +6,25 @@ Notable changes to this project are documented in this file. The format is based
 
 Breaking changes (😱!!!):
 
+- Added support for PureScript 0.14 and dropped support for all previous versions (#13)
+
 New features:
 
 Bugfixes:
 
 Other improvements:
 
-- Added documentation for all public members ([@maxdeviant](https://github.com/maxdeviant) in [#11](https://github.com/purescript-contrib/purescript-media-types/pull/11))
+- Added documentation for the entire public API (#11 by @maxdeviant)
+- Changed default branch to `main` from `master`
+- Updated to comply with Contributors library guidelines by adding new issue and pull request templates, updating documentation, and migrating to Spago for local development and CI (#10)
 
 ## [v4.0.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v4.0.1) - 2018-06-23
 
-- Adds metadata including contributor guidelines
-- Pushes latest release to Pursuit
+- Added metadata including contributor guidelines and pushed latest release to Pursuit
 
 ## [v4.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v4.0.0) - 2018-05-25
 
-Updates for 0.12
+- Updated for PureScript 0.12
 
 ## [v3.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v3.0.0) - 2017-04-03
 
@@ -34,7 +37,7 @@ Updates for 0.12
 
 ## [v1.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v1.0.0) - 2016-06-06
 
-Updates for 1.0 core libraries.
+- Updated for 1.0 core libraries.
 
 ## [v0.1.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v0.1.1) - 2016-02-06
 
