@@ -9,6 +9,7 @@ Breaking changes (😱!!!):
 - Added support for PureScript 0.14 and dropped support for all previous versions (#13)
 
 New features:
+- Added text/css media type (#9)
 
 Bugfixes:
 
