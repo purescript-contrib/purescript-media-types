@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/purescript-contrib/purescript-media-types.git"
+    "url": "https://github.com/purescript-contrib/purescript-media-types.git"
   },
   "ignore": [
     "**/.*",
@@ -17,7 +17,7 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-prelude": "master",
-    "purescript-newtype": "master"
+    "purescript-newtype": "^4.0.0",
+    "purescript-prelude": "^5.0.0"
   }
 }
