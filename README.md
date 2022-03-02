@@ -4,7 +4,6 @@
 [![Release](https://img.shields.io/github/release/purescript-contrib/purescript-media-types.svg)](https://github.com/purescript-contrib/purescript-media-types/releases)
 [![Pursuit](https://pursuit.purescript.org/packages/purescript-media-types/badge)](https://pursuit.purescript.org/packages/purescript-media-types)
 [![Maintainer: garyb](https://img.shields.io/badge/maintainer-garyb-teal.svg)](https://github.com/garyb)
-[![Maintainer: thomashoneyman](https://img.shields.io/badge/maintainer-thomashoneyman-teal.svg)](https://github.com/thomashoneyman)
 
 Internet media / content / MIME types.
 
