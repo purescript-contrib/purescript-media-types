@@ -1,0 +1,85 @@
+{
+  "workspace": {
+    "packages": {
+      "media-types": {
+        "path": "./",
+        "core": {
+          "dependencies": [
+            {
+              "newtype": ">=5.0.0 <6.0.0"
+            },
+            {
+              "prelude": ">=6.0.1 <7.0.0"
+            }
+          ],
+          "build_plan": [
+            "newtype",
+            "prelude",
+            "safe-coerce",
+            "unsafe-coerce"
+          ]
+        },
+        "test": {
+          "dependencies": [
+            "console",
+            "effect"
+          ],
+          "build_plan": [
+            "console",
+            "effect",
+            "prelude"
+          ]
+        }
+      }
+    },
+    "extra_packages": {}
+  },
+  "packages": {
+    "console": {
+      "type": "registry",
+      "version": "6.1.0",
+      "integrity": "sha256-CxmAzjgyuGDmt9FZW51VhV6rBPwR6o0YeKUzA9rSzcM=",
+      "dependencies": [
+        "effect",
+        "prelude"
+      ]
+    },
+    "effect": {
+      "type": "registry",
+      "version": "4.0.0",
+      "integrity": "sha256-eBtZu+HZcMa5HilvI6kaDyVX3ji8p0W9MGKy2K4T6+M=",
+      "dependencies": [
+        "prelude"
+      ]
+    },
+    "newtype": {
+      "type": "registry",
+      "version": "5.0.0",
+      "integrity": "sha256-gdrQu8oGe9eZE6L3wOI8ql/igOg+zEGB5ITh2g+uttw=",
+      "dependencies": [
+        "prelude",
+        "safe-coerce"
+      ]
+    },
+    "prelude": {
+      "type": "registry",
+      "version": "6.0.1",
+      "integrity": "sha256-o8p6SLYmVPqzXZhQFd2hGAWEwBoXl1swxLG/scpJ0V0=",
+      "dependencies": []
+    },
+    "safe-coerce": {
+      "type": "registry",
+      "version": "2.0.0",
+      "integrity": "sha256-a1ibQkiUcbODbLE/WAq7Ttbbh9ex+x33VCQ7GngKudU=",
+      "dependencies": [
+        "unsafe-coerce"
+      ]
+    },
+    "unsafe-coerce": {
+      "type": "registry",
+      "version": "6.0.0",
+      "integrity": "sha256-IqIYW4Vkevn8sI+6aUwRGvd87tVL36BBeOr0cGAE7t0=",
+      "dependencies": []
+    }
+  }
+}
