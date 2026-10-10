@@ -1,0 +1,14 @@
+package:
+  name: media-types
+  dependencies:
+    - newtype: ">=5.0.0 <6.0.0"
+    - prelude: ">=6.0.0 <7.0.0"
+  publish:
+    version: 6.0.1
+    license: MIT
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-media-types
+workspace:
+  packageSet:
+    registry: 81.4.0
