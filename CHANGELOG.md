@@ -11,7 +11,12 @@ New features:
 Bugfixes:
 
 Other improvements:
+
+## [v6.0.1](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v6.0.1) - 2026-10-10
+
+Other improvements:
 - Migrate from Bower and Spago Dhall to registry-backed Spago, preserving published dependency bounds.
+- Update CI for registry-backed Spago and current GitHub Actions.
 
 ## [v6.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v6.0.0) - 2022-04-27
 
