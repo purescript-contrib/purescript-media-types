@@ -12,7 +12,6 @@ Bugfixes:
 
 Other improvements:
 - Migrate from Bower and Spago Dhall to registry-backed Spago, preserving published dependency bounds.
-- Pin current development tools and update CI to Node.js 24.
 
 ## [v6.0.0](https://github.com/purescript-contrib/purescript-media-types/releases/tag/v6.0.0) - 2022-04-27
 

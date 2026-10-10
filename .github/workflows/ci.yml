@@ -11,26 +11,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v2
 
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: npm
+
+      - name: Set up a PureScript toolchain
+        uses: purescript-contrib/setup-purescript@main
+        with:
+          purescript: "0.15.16"
+          spago: "1.0.4"
+          purs-tidy: "latest"
 
       - name: Cache PureScript dependencies
-        uses: actions/cache@v5
+        uses: actions/cache@v4
         with:
-          key: ${{ runner.os }}-spago-${{ hashFiles('spago.yaml', 'spago.lock', 'package-lock.json') }}
+          key: ${{ runner.os }}-spago-${{ hashFiles('spago.yaml', 'spago.lock', '.github/workflows/ci.yml') }}
           path: |
             .spago
             output
 
       - name: Install dependencies
-        run: npm ci
+        run: spago fetch
 
       - name: Build source
-        run: npm run build
+        run: spago build --strict --pedantic-packages
 
       - name: Check formatting
-        run: npm run format:check
+        run: purs-tidy check src test
